@@ -1,0 +1,605 @@
+[
+    {
+      "id": 1,
+      "text": "The decision was met with {1}, but later it was considered {2} by experts.",
+      "options": {
+        "1": ["skepticism", "enthusiasm", "indifference"],
+        "2": ["criticized", "validated", "debunked"]
+      },
+      "answers": {
+        "1": "skepticism",
+        "2": "validated"
+      }
+    },
+    {
+      "id": 2,
+      "text": "The scientist's theory was initially {1}, but after rigorous testing, it was {2}.",
+      "options": {
+        "1": ["dismissed", "acclaimed", "ignored"],
+        "2": ["confirmed", "refuted", "abandoned"]
+      },
+      "answers": {
+        "1": "dismissed",
+        "2": "confirmed"
+      }
+    },
+    {
+      "id": 3,
+      "text": "Her speech was so {1} that it left the audience {2}.",
+      "options": {
+        "1": ["monotonous", "inspiring", "tedious"],
+        "2": ["bored", "energized", "confused"]
+      },
+      "answers": {
+        "1": "inspiring",
+        "2": "energized"
+      }
+    },
+    {
+      "id": 4,
+      "text": "The artist's work was {1} by critics, but the public found it {2}.",
+      "options": {
+        "1": ["praised", "mocked", "ignored"],
+        "2": ["mesmerizing", "unimpressive", "controversial"]
+      },
+      "answers": {
+        "1": "mocked",
+        "2": "mesmerizing"
+      }
+    },
+    {
+      "id": 5,
+      "text": "The new policy was {1} by some, while others viewed it as {2}.",
+      "options": {
+        "1": ["welcomed", "rejected", "debated"],
+        "2": ["progressive", "regressive", "neutral"]
+      },
+      "answers": {
+        "1": "rejected",
+        "2": "progressive"
+      }
+    },
+    {
+      "id": 6,
+      "text": "The novel's plot was {1}, but its characters were {2}.",
+      "options": {
+        "1": ["predictable", "intriguing", "confusing"],
+        "2": ["unforgettable", "flat", "relatable"]
+      },
+      "answers": {
+        "1": "predictable",
+        "2": "unforgettable"
+      }
+    },
+    {
+      "id": 7,
+      "text": "The team's performance was {1}, which led to their {2} in the competition.",
+      "options": {
+        "1": ["outstanding", "mediocre", "disappointing"],
+        "2": ["victory", "elimination", "recognition"]
+      },
+      "answers": {
+        "1": "outstanding",
+        "2": "victory"
+      }
+    },
+    {
+      "id": 8,
+      "text": "The CEO's decision was {1}, but it ultimately proved to be {2}.",
+      "options": {
+        "1": ["controversial", "unanimous", "hasty"],
+        "2": ["beneficial", "detrimental", "irrelevant"]
+      },
+      "answers": {
+        "1": "controversial",
+        "2": "beneficial"
+      }
+    },
+    {
+      "id": 9,
+      "text": "The experiment's results were {1}, which made the researchers {2}.",
+      "options": {
+        "1": ["inconclusive", "groundbreaking", "expected"],
+        "2": ["frustrated", "elated", "indifferent"]
+      },
+      "answers": {
+        "1": "groundbreaking",
+        "2": "elated"
+      }
+    },
+    {
+      "id": 10,
+      "text": "The movie's ending was {1}, leaving the audience {2}.",
+      "options": {
+        "1": ["predictable", "shocking", "ambiguous"],
+        "2": ["satisfied", "confused", "disappointed"]
+      },
+      "answers": {
+        "1": "shocking",
+        "2": "confused"
+      }
+    },
+    
+        {
+          "id": 11,
+          "text": "The politician's speech was filled with {1}, which made it difficult to discern his true {2}.",
+          "options": {
+            "1": ["rhetoric", "candor", "hyperbole"],
+            "2": ["intentions", "apathy", "integrity"]
+          },
+          "answers": {
+            "1": "rhetoric",
+            "2": "intentions"
+          }
+        },
+        {
+          "id": 12,
+          "text": "The scientist's findings were {1}, challenging the long-held {2} in the field.",
+          "options": {
+            "1": ["paradigm-shifting", "mundane", "anomalous"],
+            "2": ["dogma", "hypothesis", "consensus"]
+          },
+          "answers": {
+            "1": "paradigm-shifting",
+            "2": "dogma"
+          }
+        },
+        {
+          "id": 13,
+          "text": "The author's writing style is often described as {1}, as it combines {2} with profound insights.",
+          "options": {
+            "1": ["laconic", "verbose", "esoteric"],
+            "2": ["simplicity", "obscurity", "grandiloquence"]
+          },
+          "answers": {
+            "1": "laconic",
+            "2": "simplicity"
+          }
+        },
+        {
+          "id": 14,
+          "text": "The CEO's {1} leadership style fostered a culture of {2} among employees.",
+          "options": {
+            "1": ["authoritarian", "egalitarian", "laissez-faire"],
+            "2": ["compliance", "innovation", "apathy"]
+          },
+          "answers": {
+            "1": "egalitarian",
+            "2": "innovation"
+          }
+        },
+        {
+          "id": 15,
+          "text": "The artist's work was criticized for being overly {1}, lacking the {2} that defines great art.",
+          "options": {
+            "1": ["derivative", "original", "abstract"],
+            "2": ["authenticity", "pretension", "ambiguity"]
+          },
+          "answers": {
+            "1": "derivative",
+            "2": "authenticity"
+          }
+        },
+        {
+          "id": 16,
+          "text": "The professor's lecture was so {1} that even the most {2} students struggled to stay engaged.",
+          "options": {
+            "1": ["pedantic", "engaging", "succinct"],
+            "2": ["diligent", "apathetic", "curious"]
+          },
+          "answers": {
+            "1": "pedantic",
+            "2": "diligent"
+          }
+        },
+        {
+          "id": 17,
+          "text": "The diplomat's {1} approach helped to {2} tensions between the two nations.",
+          "options": {
+            "1": ["conciliatory", "bellicose", "indifferent"],
+            "2": ["escalate", "mitigate", "exacerbate"]
+          },
+          "answers": {
+            "1": "conciliatory",
+            "2": "mitigate"
+          }
+        },
+        {
+          "id": 18,
+          "text": "The novel's protagonist is a {1} figure, whose actions are driven by a deep sense of {2}.",
+          "options": {
+            "1": ["quixotic", "pragmatic", "cynical"],
+            "2": ["altruism", "ambition", "despair"]
+          },
+          "answers": {
+            "1": "quixotic",
+            "2": "altruism"
+          }
+        },
+        {
+          "id": 19,
+          "text": "The historian's interpretation of the event was {1}, as it relied heavily on {2} evidence.",
+          "options": {
+            "1": ["contentious", "unassailable", "speculative"],
+            "2": ["anecdotal", "empirical", "circumstantial"]
+          },
+          "answers": {
+            "1": "contentious",
+            "2": "anecdotal"
+          }
+        },
+        {
+          "id": 20,
+          "text": "The engineer's design was {1}, incorporating both {2} and aesthetic appeal.",
+          "options": {
+            "1": ["innovative", "conventional", "obsolete"],
+            "2": ["functionality", "frivolity", "redundancy"]
+          },
+          "answers": {
+            "1": "innovative",
+            "2": "functionality"
+          }
+        },
+        {
+          "id": 21,
+          "text": "The debate was marked by {1} arguments, which only served to {2} the audience.",
+          "options": {
+            "1": ["specious", "cogent", "irrefutable"],
+            "2": ["enlighten", "confuse", "alienate"]
+          },
+          "answers": {
+            "1": "specious",
+            "2": "confuse"
+          }
+        },
+        {
+          "id": 22,
+          "text": "The philosopher's ideas were often dismissed as {1}, but they later gained {2} among scholars.",
+          "options": {
+            "1": ["utopian", "pragmatic", "heretical"],
+            "2": ["credence", "notoriety", "obscurity"]
+          },
+          "answers": {
+            "1": "utopian",
+            "2": "credence"
+          }
+        },
+        {
+          "id": 23,
+          "text": "The company's decision to expand was {1}, given the {2} state of the market.",
+          "options": {
+            "1": ["prudent", "reckless", "timely"],
+            "2": ["volatile", "stable", "stagnant"]
+          },
+          "answers": {
+            "1": "reckless",
+            "2": "volatile"
+          }
+        },
+        {
+          "id": 24,
+          "text": "The poet's use of {1} language created a sense of {2} in the reader.",
+          "options": {
+            "1": ["luminous", "prosaic", "turgid"],
+            "2": ["wonder", "boredom", "confusion"]
+          },
+          "answers": {
+            "1": "luminous",
+            "2": "wonder"
+          }
+        },
+        {
+          "id": 25,
+          "text": "The lawyer's {1} defense left the jury {2} about the defendant's guilt.",
+          "options": {
+            "1": ["compelling", "lackluster", "perfunctory"],
+            "2": ["convinced", "skeptical", "indifferent"]
+          },
+          "answers": {
+            "1": "compelling",
+            "2": "skeptical"
+          }
+        },
+        
+            {
+              "id": 26,
+              "text": "The researcher's methodology was {1}, which led to {2} results that could not be replicated.",
+              "options": {
+                "1": ["flawed", "rigorous", "innovative"],
+                "2": ["inconsistent", "reliable", "groundbreaking"]
+              },
+              "answers": {
+                "1": "flawed",
+                "2": "inconsistent"
+              }
+            },
+            {
+              "id": 27,
+              "text": "The politician's {1} remarks were intended to {2} public opinion in her favor.",
+              "options": {
+                "1": ["inflammatory", "diplomatic", "conciliatory"],
+                "2": ["manipulate", "alienate", "unify"]
+              },
+              "answers": {
+                "1": "inflammatory",
+                "2": "manipulate"
+              }
+            },
+            {
+              "id": 28,
+              "text": "The novel's {1} narrative structure made it {2} for readers to follow the plot.",
+              "options": {
+                "1": ["convoluted", "linear", "streamlined"],
+                "2": ["challenging", "effortless", "tedious"]
+              },
+              "answers": {
+                "1": "convoluted",
+                "2": "challenging"
+              }
+            },
+            {
+              "id": 29,
+              "text": "The scientist's theory was {1} by her peers, who found it {2} and lacking evidence.",
+              "options": {
+                "1": ["embraced", "dismissed", "debated"],
+                "2": ["plausible", "speculative", "empirical"]
+              },
+              "answers": {
+                "1": "dismissed",
+                "2": "speculative"
+              }
+            },
+            {
+              "id": 30,
+              "text": "The artist's work was {1}, reflecting both her {2} and her technical skill.",
+              "options": {
+                "1": ["evocative", "banal", "derivative"],
+                "2": ["creativity", "apathy", "mediocrity"]
+              },
+              "answers": {
+                "1": "evocative",
+                "2": "creativity"
+              }
+            },
+            {
+              "id": 31,
+              "text": "The CEO's {1} decision-making style often led to {2} outcomes for the company.",
+              "options": {
+                "1": ["impulsive", "deliberate", "indecisive"],
+                "2": ["unpredictable", "favorable", "disastrous"]
+              },
+              "answers": {
+                "1": "impulsive",
+                "2": "unpredictable"
+              }
+            },
+            {
+              "id": 32,
+              "text": "The historian's account of the event was {1}, as it relied on {2} sources.",
+              "options": {
+                "1": ["biased", "objective", "comprehensive"],
+                "2": ["primary", "secondary", "anecdotal"]
+              },
+              "answers": {
+                "1": "biased",
+                "2": "anecdotal"
+              }
+            },
+            {
+              "id": 33,
+              "text": "The professor's lecture was {1}, leaving students {2} about the subject.",
+              "options": {
+                "1": ["enlightening", "confusing", "monotonous"],
+                "2": ["informed", "perplexed", "bored"]
+              },
+              "answers": {
+                "1": "confusing",
+                "2": "perplexed"
+              }
+            },
+            {
+              "id": 34,
+              "text": "The diplomat's {1} approach helped to {2} the conflict between the two nations.",
+              "options": {
+                "1": ["pragmatic", "idealistic", "combative"],
+                "2": ["resolve", "escalate", "prolong"]
+              },
+              "answers": {
+                "1": "pragmatic",
+                "2": "resolve"
+              }
+            },
+            {
+              "id": 35,
+              "text": "The author's use of {1} language made the text {2} to readers unfamiliar with the subject.",
+              "options": {
+                "1": ["esoteric", "accessible", "verbose"],
+                "2": ["incomprehensible", "engaging", "tedious"]
+              },
+              "answers": {
+                "1": "esoteric",
+                "2": "incomprehensible"
+              }
+            },
+            {
+              "id": 36,
+              "text": "The scientist's findings were {1}, challenging the {2} of the scientific community.",
+              "options": {
+                "1": ["revolutionary", "mundane", "anomalous"],
+                "2": ["dogma", "hypothesis", "consensus"]
+              },
+              "answers": {
+                "1": "revolutionary",
+                "2": "dogma"
+              }
+            },
+            {
+              "id": 37,
+              "text": "The politician's {1} speech failed to {2} the concerns of the electorate.",
+              "options": {
+                "1": ["eloquent", "rambling", "concise"],
+                "2": ["address", "ignore", "exacerbate"]
+              },
+              "answers": {
+                "1": "rambling",
+                "2": "address"
+              }
+            },
+            {
+              "id": 38,
+              "text": "The artist's work was {1}, blending {2} with traditional techniques.",
+              "options": {
+                "1": ["innovative", "derivative", "conventional"],
+                "2": ["modernity", "redundancy", "simplicity"]
+              },
+              "answers": {
+                "1": "innovative",
+                "2": "modernity"
+              }
+            },
+            {
+              "id": 39,
+              "text": "The CEO's {1} leadership style fostered a culture of {2} within the organization.",
+              "options": {
+                "1": ["authoritarian", "collaborative", "laissez-faire"],
+                "2": ["compliance", "innovation", "apathy"]
+              },
+              "answers": {
+                "1": "collaborative",
+                "2": "innovation"
+              }
+            },
+            {
+              "id": 40,
+              "text": "The historian's interpretation of the event was {1}, as it was based on {2} evidence.",
+              "options": {
+                "1": ["contentious", "unassailable", "speculative"],
+                "2": ["circumstantial", "empirical", "anecdotal"]
+              },
+              "answers": {
+                "1": "contentious",
+                "2": "circumstantial"
+              }
+            },
+            {
+              "id": 41,
+              "text": "The engineer's design was {1}, incorporating both {2} and aesthetic appeal.",
+              "options": {
+                "1": ["innovative", "conventional", "obsolete"],
+                "2": ["functionality", "frivolity", "redundancy"]
+              },
+              "answers": {
+                "1": "innovative",
+                "2": "functionality"
+              }
+            },
+            {
+              "id": 42,
+              "text": "The debate was marked by {1} arguments, which only served to {2} the audience.",
+              "options": {
+                "1": ["specious", "cogent", "irrefutable"],
+                "2": ["enlighten", "confuse", "alienate"]
+              },
+              "answers": {
+                "1": "specious",
+                "2": "confuse"
+              }
+            },
+            {
+              "id": 43,
+              "text": "The philosopher's ideas were often dismissed as {1}, but they later gained {2} among scholars.",
+              "options": {
+                "1": ["utopian", "pragmatic", "heretical"],
+                "2": ["credence", "notoriety", "obscurity"]
+              },
+              "answers": {
+                "1": "utopian",
+                "2": "credence"
+              }
+            },
+            {
+              "id": 44,
+              "text": "The company's decision to expand was {1}, given the {2} state of the market.",
+              "options": {
+                "1": ["prudent", "reckless", "timely"],
+                "2": ["volatile", "stable", "stagnant"]
+              },
+              "answers": {
+                "1": "reckless",
+                "2": "volatile"
+              }
+            },
+            {
+              "id": 45,
+              "text": "The poet's use of {1} language created a sense of {2} in the reader.",
+              "options": {
+                "1": ["luminous", "prosaic", "turgid"],
+                "2": ["wonder", "boredom", "confusion"]
+              },
+              "answers": {
+                "1": "luminous",
+                "2": "wonder"
+              }
+            },
+            {
+              "id": 46,
+              "text": "The lawyer's {1} defense left the jury {2} about the defendant's guilt.",
+              "options": {
+                "1": ["compelling", "lackluster", "perfunctory"],
+                "2": ["convinced", "skeptical", "indifferent"]
+              },
+              "answers": {
+                "1": "compelling",
+                "2": "skeptical"
+              }
+            },
+            {
+              "id": 47,
+              "text": "The researcher's findings were {1}, challenging the {2} of the scientific community.",
+              "options": {
+                "1": ["paradigm-shifting", "mundane", "anomalous"],
+                "2": ["dogma", "hypothesis", "consensus"]
+              },
+              "answers": {
+                "1": "paradigm-shifting",
+                "2": "dogma"
+              }
+            },
+            {
+              "id": 48,
+              "text": "The politician's {1} remarks were intended to {2} public opinion in her favor.",
+              "options": {
+                "1": ["inflammatory", "diplomatic", "conciliatory"],
+                "2": ["manipulate", "alienate", "unify"]
+              },
+              "answers": {
+                "1": "inflammatory",
+                "2": "manipulate"
+              }
+            },
+            {
+              "id": 49,
+              "text": "The novel's {1} narrative structure made it {2} for readers to follow the plot.",
+              "options": {
+                "1": ["convoluted", "linear", "streamlined"],
+                "2": ["challenging", "effortless", "tedious"]
+              },
+              "answers": {
+                "1": "convoluted",
+                "2": "challenging"
+              }
+            },
+            {
+              "id": 50,
+              "text": "The scientist's theory was {1} by her peers, who found it {2} and lacking evidence.",
+              "options": {
+                "1": ["embraced", "dismissed", "debated"],
+                "2": ["plausible", "speculative", "empirical"]
+              },
+              "answers": {
+                "1": "dismissed",
+                "2": "speculative"
+              }
+            }
+          
+  ]
