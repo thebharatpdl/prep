@@ -13,8 +13,13 @@ const Beginner = () => {
 
   // Navigate to Question Screen
   const handleNavigation = (level) => {
-    navigation.navigate('QuestionScreen', { level });
+    if (level === 'Vocabulary I') {
+      navigation.navigate('VocabQuestion1', { level });
+    } else if (level === 'Vocabulary II') {
+      navigation.navigate('VocabQuestion2', { level });
+    }
   };
+  
 
   // Render vocabulary levels
   const renderItem = ({ item }) => (
